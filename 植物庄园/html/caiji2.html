@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>木槿</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/caiji.css" />
+		<link rel="stylesheet" type="text/css" href="../css/jquery-ui.min.css"/>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			
+			#zhiwu1{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display:none;
+			}
+			#jieshu{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="caijibg">
+			<img id="caijipng" src="../img/caijibg.png" />
+			<div id="guangbiao1">
+				<img class="guangpng" id="guang1png" src="../img/guang1.png" />
+			</div>
+			<div id="guangbiao2">
+				<img class="guangpng" id="guang2png" src="../img/guang4.png" />
+			</div>
+			<div id="guangbiao3">
+				<img class="guangpng" id="guang3png" src="../img/guang4.png" />
+			</div>
+			<div id="guangbiao4">
+				<img class="guangpng" id="guang4png" src="../img/guang4.png" />
+			</div>
+			<div id="guangbiao5">
+				<img class="guangpng" id="guang5png" src="../img/guang4.png" />
+			</div>
+			<div id="guangbiao6">
+				<img class="guangpng" id="guang6png" src="../img/guang4.png" />
+			</div>
+			<div id="guangbiao7">
+				<img class="guangpng" id="guang7png" src="../img/guang4.png" />
+			</div>
+			<div id="guangbiao8">
+				<img class="guangpng" id="guang8png" src="../img/guang4.png" />
+			</div>
+			<div id="guangbiao9">
+				<img class="guangpng" id="guang9png" src="../img/guang4.png" />
+			</div>
+			<div style="display: block;" id="zhiwu1">
+				<div id="gouwei1">
+					<img id="zhiwu1png" src="../img/lastbg.png" />
+					<div class="quan1 circle" id="gouquan1">
+						<img class="mybox" src="../img/gongjuquan.png"/>
+					</div>
+					<div class="quan2 circle" id="gouquan2">
+						<img class="mybox" src="../img/gongjuquan.png"/>
+					</div>
+					<div class="quan3 circle" id="gouquan3">
+						<img class="mybox" src="../img/gongjuquan.png"/>
+					</div>
+					<img id="goupng" src="../img/mujin.png" />
+					
+					<div id="gouxuanxiang1">
+						<img id="gou1png" src="../img/cuowu.png" />
+					</div>
+					<div id="gouxuanxiang2">
+						<img id="gou2png" src="../img/zhengque.png" />
+					</div>
+					<div id="gouxuanxiang3">
+						<img id="gou3png" src="../img/cuowu.png" />
+					</div>
+					<div id="xuanzhe1"></div>
+					<div id="xuanzhe2"></div>
+					<div id="xuanzhe3"></div>
+					<div id="buwei1"></div>
+					<div id="buwei2"></div>
+					<div id="buwei3"></div>
+					<div id="buwei4"></div>
+					<div id="mujinbiao1">
+						<img class="mybox" id="mujinbiao1png" src="../img/guang4.png" />
+					</div>
+					<div id="mujinbiao2">
+						<img class="mybox" id="mujinbiao2png" src="../img/guang4.png" />
+					</div>
+					
+					<div id="mujin1ts">
+						<img class="tishi" src="../img/mujin1tishi.png" />
+					</div>
+					<div id="mujin2ts">
+						<img class="tishi" src="../img/mujin2tishi.png" />
+					</div>
+					<div style="" id="next">
+						<img id="nextpng" src="../img/yifuqiangjin1.png" />
+						<img id="next2png" src="../img/yifuqianjin2.png" />
+					</div>
+				</div>
+				<div id="gouweicao">
+					<img id="gouweicaobg" src="../img/lastbg.png" />
+					<div id="next2">
+						<img id="nextpng2" src="../img/yifuqiangjin1.png" />
+						<img id="next2png2" src="../img/yifuqianjin2.png" />
+					</div>
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<div id="caojiesao">
+						<img id="caojiesaopng" src="../img/mujiahua.png" />
+					</div>
+				</div>
+				<div id="goujilu">
+					<img id="gouweicaobg" src="../img/lastbg.png" />
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<div id="goujilun">
+						<img id="goujilunpng" src="../img/mujinjilu.png" />
+					</div>
+					<div id="next3">
+						<img id="nextpng3" src="../img/yifuqiangjin1.png" />
+						<img id="next2png3" src="../img/yifuqianjin2.png" />
+					</div>
+					<div id="x">
+
+					</div>
+					<div id="bianhao1">
+						01
+					</div>
+				</div>
+				<div id="gouyazhikaishi">
+					<img id="yazhikaishipng" src="../img/yazhikaishi.png" />
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<div class="next" id="kaishinext">
+						<img class="nextpng" id="kaishinextpng" src="../img/yifuqiangjin1.png" />
+						<img class="next2png" id="kaishinext2png" src="../img/yifuqianjin2.png" />
+					</div>
+				</div>
+				<div id="goukaishiyazhi">
+					<img class="mybox"  src="../img/kaishiyazhibg2.png"/>
+					<img class="yazhiwenzi" src="../img/yazhiwenzi.png" />
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<div id="goudiv1">
+						<input type="text"  id="input-num" value="0" />
+					</div>
+					<div id="goudiv1jian">
+						
+					</div>
+					<div id="goudiv1jia">
+						
+					</div>
+					<div id="goudiv2">
+						<input type="text"  id="input-num2" value="0" />
+					</div>
+					<div id="goudiv2jian">
+						
+					</div>
+					<div id="goudiv2jia">
+						
+					</div>
+					<div id="goudiv3">
+						<input type="text"  id="input-num3" value="0" />
+					</div>
+					<div id="goudiv3jian">
+						
+					</div>
+					<div id="goudiv3jia">
+						
+					</div>
+					<div id="gouti1">
+						<div id="guoduo1png" style="display: none;"><img class="mybox" src="../img/guoduo1.png"/></div>
+						<div id="guoshao1png" style="display: none;"><img class="mybox"src="../img/guoshao1.png" /></div>
+					</div>
+					<div id="gouti2">
+						<img style="display: none;" class="mybox" id="guoduo2png" src="../img/guoduo1.png"/>
+						<img style="display: none;" class="mybox" id="guoshao2png" src="../img/guoshao1.png" />
+					</div>
+					<div id="gouti3">
+						<img style="display: none;" class="mybox" id="guoduo3png" src="../img/guoduo1.png"/>
+						<img style="display: none;" class="mybox" id="guoshao3png" src="../img/guoshao1.png" />
+					</div>
+					<div id="gouwancheng">
+						<img id="mywancheng" class="mybox" src="../img/wanchengqian.png" />
+					</div>
+					<div class="next" id="gouwanchengnext">
+						<img class="nextpng" id="gouwanchengnextpng" src="../img/yifuqiangjin1.png" />
+						<img class="next2png" id="gouwanchengnext2png" src="../img/yifuqianjin2.png" />
+					</div>
+					<div id="goutishishu">
+						<img class="mybox" src="../img/tishishu.png"/>
+					</div>
+					<div id="goutishishudiv">
+						<img class="mybox" src="../img/goutishishudiv.png" />
+					</div>
+				</div>
+				<div id="goushezhi" >
+					<img class="mybox" src="../img/goushezhi.png" />
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<p style="display: none;">
+  					<label for="amount">最大价格：</label>
+  					<input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
+					</p>
+					<div id="slider"></div>	
+					<div id="goushijianshu">
+						<img class="mybox" src="../img/tishishu.png"" />
+					</div>
+					<div id="gouguozao">
+						<img class="mybox" src="../img/guozao.png"/>
+					</div>
+					<div id="gouheshi">
+						<img class="mybox" src="../img/heshi.png"/>
+					</div>
+					<div id="gouguowan">
+						<img class="mybox" src="../img/guowan.png"/>
+					</div>
+					<div id="gouguowan2">
+						<img class="mybox" src="../img/guowan.png"/>
+					</div>
+					<div id="goushijianshudiv">
+						<img class="mybox" src="../img/goushijianbook.png" />
+					</div>
+					<div class="next" id="goushijiannext">
+						<img class="nextpng" id="goushijiannextpng" src="../img/yifuqiangjin1.png" />
+						<img class="next2png" id="goushijiannext2png" src="../img/yifuqianjin2.png" />
+					</div>
+				</div>
+				<div id="gouyazhiwancheng">
+					<img class="mybox" src="../img/gouyazhiwancheng.png" />
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<div class="next" id="gouyazhiwanchengnext">
+						<img class="nextpng" id="gouyazhiwanchengnextpng" src="../img/yifuqiangjin1.png" />
+						<img class="next2png" id="gouyazhiwanchengnext2png" src="../img/yifuqianjin2.png" />
+					</div>
+				</div>
+				<div id="gouzhuangding">
+					<img class="mybox" src="../img/mujinzhuangding.png" />
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<div class="next" id="gouzhuangdingnext">
+						<img class="nextpng" id="gouzhuangdingnextpng" src="../img/yifuqiangjin1.png" />
+						<img class="next2png" id="gouzhuangdingnext2png" src="../img/yifuqianjin2.png" />
+					</div>
+					<div id="gouzhuangdingkuai">
+						
+					</div>
+					<div id="mujinxian">
+						<img class="mybox" src="../img/mujinxian.png" />
+					</div>
+					<div id="mujinquan">
+						<img class="mybox" src="../img/mujinquan.png" />
+					</div>
+					<div id="gouquanzuo">
+						<img class="mybox" src="../img/gouquanzuo.png"/>
+					</div>
+					<div id="gouquanyou">
+						<img class="mybox" src="../img/gouquanyou.png"/>
+					</div>
+					<div id="gouquanzhong">
+						<img class="quanzhong" src="../img/gouquanzhong.png"/>
+					</div>
+					<div id="mujinzhen">
+						<img class="mybox" src="../img/zhen.png"/>
+					</div>
+					<div class="shu" id="gouzhuangdingshu">
+						<img class="mybox" src="../img/tishishu.png"" />
+					</div>
+					<div class="shudiv" id="gouzhuangdingshudiv">
+						<img class="mybox" src="../img/gouzhuangdingbook.png" />
+					</div>
+				</div>
+				<div id="gouzhantie">
+					<img class="mybox" src="../img/mujinzhantie.png"/>
+					<img class="zhantiwenzi" src="../img/zhantiewenzi.png" />
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<div class="next" id="gouzhantienext">
+						<img class="nextpng" id="gouzhantienextpng" src="../img/yifuqiangjin1.png" />
+						<img class="next2png" id="gouzhantienext2png" src="../img/yifuqianjin2.png" />
+					</div>
+					<div id="gouzhantiejilubai">
+						<img id="gouzhantiejilubaipng" class="mybox" src="../img/jilubai.png"/>
+					</div>
+					<div id="gouzhantiejiandingbai">
+						<img id="gouzhantiejiandingbaipng" class="mybox" src="../img/jiandingbai.png"/>
+					</div>
+					<div id="gouzhantiejilu">
+						<img class="mybox" src="../img/zhantiejilu.png"/>
+					</div>
+					<div id="jilubiao">
+						<img class="mybox" src="../img/caiji.png" />
+					</div>
+					<div id="jiandingbiao">
+						<img class="mybox" src="../img/jianding.png"/>
+					</div>
+					<div id="gouzhantiejianding">
+						<img class="mybox" src="../img/zhantiejianding.png"/>
+					</div>
+					<div class="shu" id="gouzhantieshu">
+						<img class="mybox" src="../img/tishishu.png"" />
+					</div>
+					<div class="shudiv" id="gouzhantieshudiv">
+						<img class="mybox" src="../img/gouzhantiebook.png" />
+					</div>
+				</div>
+				<div id="gouzhuangdingwan">
+					<img class="mybox" src="../img/mujinzhuangdingwan.png"/>
+					<div id="top">
+						<img id="toppng" src="../img/head.png" />
+					</div>
+					<div class="next" id="gouzhuangdingwannext">
+						<img class="nextpng" id="gouzhuangdingwannextpng" src="../img/yifuqiangjin1.png" />
+						<img class="next2png" id="gouzhuangdingwannext2png" src="../img/yifuqianjin2.png" />
+					</div>
+				</div>
+			</div>
+			<div id="jieshu">
+				<img class="mybox" src="../img/zhiwujieshu.png" />
+			</div>
+		</div>
+		
+		
+	</body>
+	<script>
+		setInterval(function() {
+			var myDate = new Date();
+			var month= myDate.getMonth()+1;
+			var x = myDate.getFullYear() + "年" + month + "月" + myDate.getDate() + "日 " /*+myDate.getHours()+"点"+myDate.getMinutes()+"分"+myDate.getSeconds()+"秒"*/ ;
+			document.getElementById("x").innerHTML = x;
+		}, 1000);
+		
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			
+			
+			$("#mujinnext2png").click(function() {
+				setTimeout(function() {
+						$("#mujin1").css('display', 'none');
+						$("#mujinhua").css('display', 'block');
+						$("#zhizhu2").removeClass("cursor2");
+						setTimeout(function() {
+						$("#mujinhua").css('display', 'none');
+						$("#mujinjilu").css('display', 'block');
+					}, 5000);
+					}, 300);
+				
+			});
+			
+			$("#mujinyazhikaishinext").mouseenter(function() {
+				$("#mujinyazhikaishinextpng").css('display', 'none');
+				$("#mujinyazhikaishinext2png").css('display', 'block');
+			});
+
+			$("#mujinyazhikaishinext").mouseleave(function() {
+				$("#mujinyazhikaishinextpng").css('display', 'block');
+				$("#mujinyazhikaishinext2png").css('display', 'none');
+			});
+			$("#mujinyazhikaishinext").click(function() {
+				$("#mujinyazhikaishi").css('display', 'none');
+				$("#mujinkaishiyazhi").css('display', 'block');
+			});
+			
+			$("#mujinjilunext").mouseenter(function() {
+				$("#mujinjilunextpng").css('display', 'none');
+				$("#mujinjilunext2png").css('display', 'block');
+			});
+
+			$("#mujinjilunext").mouseleave(function() {
+				$("#mujinjilunextpng").css('display', 'block');
+				$("#mujinjilunext2png").css('display', 'none');
+			});
+			$("#mujinjilunext").click(function() {
+				$("#mujinjilu").css('display', 'none');
+				$("#mujinyazhikaishi").css('display', 'block');
+			});
+			
+			
+			$("#mujinhuanext").mouseenter(function() {
+				$("#mujinhuanextpng").css('display', 'none');
+				$("#mujinhuanext2png").css('display', 'block');
+			});
+
+			$("#mujinhuanext").mouseleave(function() {
+				$("#mujinhuanextpng").css('display', 'block');
+				$("#mujinhuanext2png").css('display', 'none');
+			});
+			$("#mujinhuanext").click(function() {
+				$("#mujinhua").css('display', 'none');
+				$("#mujinjilu").css('display', 'block');
+			});
+			
+			$("#mujinxuanzhe1").click(function() {
+				$("#mujinxuanxiang1").css('display', 'block');
+				$("#mujinquan1").removeClass("circle");
+				
+			});
+			$("#mujinxuanzhe2").click(function() {
+				$("#mujinxuanxiang2").css('display', 'block');
+				$("#mujinquan2").removeClass("circle");
+				$("#zhizhu2").addClass("cursor2");
+				$("#mujinbuwei2").click(function() {
+					setTimeout(function() {
+						$("#mujin2ts").css('display', 'block');
+						$("#mujinnextpng").css('display', 'none');
+						$("#mujinnext2png").css('display', 'block');
+						$("#zhizhu2").removeClass("cursor2");
+					}, 300);
+
+				});
+				$("#mujinbuwei1").click(function() {
+					setTimeout(function() {
+						$("#mujin1ts").css('display', 'block');
+					}, 300);
+				});
+				
+			});
+			$("#mujinxuanzhe3").click(function() {
+				$("#mujinxuanxiang3").css('display', 'block');
+				$("#mujinquan3").removeClass("circle");
+			});
+			
+			/*
+			$("#guangbiao1").click(function() {
+				setTimeout(function() {
+					$("#zhizhu1").css('display', 'block');
+					$("#guangbiao1").css('display', 'none');
+
+				}, 300);
+			});*/
+			
+			$( "#gouzhantiejilu" ).draggable({ revert: "invalid" });
+    		$( "#gouzhantiejianding" ).draggable({ revert: "invalid" });
+			$( "#gouzhantiejilubai" ).droppable({
+    accept: "#gouzhantiejilu", 
+      drop: function() {
+      				$("#jilubiao").css("display","none");
+      				$("#gouzhantiejilu").css("display","none");
+      				$("#gouzhantiejilubaipng").attr ("src", "../img/zhantiejilu.png");
+      				$("#ti1png").css("display","block");
+      				var display1 =$('#gouzhantiejilu').css('display');
+      				var display2 =$('#gouzhantiejianding').css('display');
+      				
+               		if(display1 == 'none'&&display2 == 'none'){
+      				$("#gouzhantienextpng").css('display','none');
+   					$("#gouzhantienext2png").css('display','block');}
+      }
+    });
+    				$( "#gouzhantiejiandingbai" ).droppable({
+    accept: "#gouzhantiejianding", 
+      drop: function() {
+      				$("#jiandingbiao").css("display","none");
+      				$("#gouzhantiejianding").css("display","none");
+      				$("#gouzhantiejiandingbaipng").attr ("src", "../img/zhantiejianding.png");
+      				$("#ti1png").css("display","block");
+      				var display1 =$('#gouzhantiejilu').css('display');
+      				var display2 =$('#gouzhantiejianding').css('display');
+      				
+               		if(display1 == 'none'&&display2 == 'none'){
+      				$("#gouzhantienextpng").css('display','none');
+   					$("#gouzhantienext2png").css('display','block');}
+      }
+    });
+			
+			$("#gouzhantienext2png").click(function() {
+				setTimeout(function() {
+					$("#gouzhantie").css('display', 'none');
+					$("#gouzhuangdingwan").css('display', 'block');
+					
+				}, 300);
+			});
+			
+			$("#next2").mouseenter(function() {
+				$("#nextpng2").css('display', 'none');
+				$("#next2png2").css('display', 'block');
+			});
+
+			$("#next2").mouseleave(function() {
+				$("#next2png2").css('display', 'none');
+				$("#nextpng2").css('display', 'block');
+			});
+			
+			$("#gouyazhiwanchengnext").mouseenter(function() {
+				$("#gouyazhiwanchengnextpng").css('display', 'none');
+				$("#gouyazhiwanchengnext2png").css('display', 'block');
+			});
+
+			$("#gouyazhiwanchengnext").mouseleave(function() {
+				$("#gouyazhiwanchengnextpng").css('display', 'block');
+				$("#gouyazhiwanchengnext2png").css('display', 'none');
+			});
+			
+			$("#gouzhuangdingwannext").mouseenter(function() {
+				$("#gouzhuangdingwannextpng").css('display', 'none');
+				$("#gouzhuangdingwannext2png").css('display', 'block');
+			});
+
+			$("#gouzhuangdingwannext").mouseleave(function() {
+				$("#gouzhuangdingwannextpng").css('display', 'block');
+				$("#gouzhuangdingwannext2png").css('display', 'none');
+			});
+			
+			$("#gouzhuangdingwannext").click(function() {
+				arr = JSON.parse(localStorage.getItem("arr"));
+			guang2 = JSON.parse(localStorage.getItem("guang2"));
+			guang3 = JSON.parse(localStorage.getItem("guang3"));
+			guang4 = JSON.parse(localStorage.getItem("guang4"));
+			guang5 = JSON.parse(localStorage.getItem("guang5"));
+			guang6 = JSON.parse(localStorage.getItem("guang6"));
+			guang7 = JSON.parse(localStorage.getItem("guang7"));
+			guang8 = JSON.parse(localStorage.getItem("guang8"));
+			guang9= JSON.parse(localStorage.getItem("guang9"));
+			
+			if(arr == null||guang2 == null||guang3 == null||guang4 == null||guang5 == null||guang6 == null||guang7 == null||guang8 == null||guang9 == null){
+				setTimeout(function() {
+					window.location.href="caiji.html";
+				}, 300);
+			}
+			else{
+				$("#jieshu").css('display', 'block');
+			}
+				
+				
+			});
+			
+			
+			$("#gouyazhiwanchengnext").click(function() {
+				setTimeout(function() {
+					$("#gouyazhiwancheng").css('display', 'none');
+					$("#gouzhuangding").css('display', 'block');
+					
+				}, 300);
+			});
+			
+			
+			
+			$("#gouzhuangdingnext2png").click(function() {
+				setTimeout(function() {
+					$("#gouzhuangding").css('display', 'none');
+					$("#gouzhantie").css('display', 'block');
+					
+				}, 300);
+			});
+			
+			$("#gouzhuangdingkuai").click(function() {
+				setTimeout(function() {
+					$("#mujinxian").css('display', 'block');
+				}, 300);
+				setTimeout(function() {
+					$("#mujinquan").css('display', 'block');
+				}, 800);
+				setTimeout(function() {
+					$("#mujinzhen").css('display', 'block');
+				}, 1000);
+				setTimeout(function() {
+					$("#gouquanzuo").css('display', 'block');
+				}, 1300);
+				setTimeout(function() {
+					$("#gouquanyou").css('display', 'block');
+				}, 1800);
+				setTimeout(function() {
+					$("#gouquanzhong").css('display', 'block');
+				}, 2300);
+				setTimeout(function() {
+					$("#gouzhuangdingnext2png").css('display', 'block');
+				}, 2400);
+				setTimeout(function() {
+					$("#gouzhuangdingnextpng").css('display', 'none');
+				}, 2400);
+			});
+			
+			$("#gouwanchengnext2png").click(function() {
+				setTimeout(function() {
+					$("#goukaishiyazhi").css('display', 'none');
+					$("#goushezhi").css('display', 'block');
+				}, 300);
+			});
+			
+			$("#goushijiannext2png").click(function() {
+				setTimeout(function() {
+					$("#goushezhi").css('display', 'none');
+					$("#gouyazhiwancheng").css('display', 'block');
+					setTimeout(function() {
+					$("#gouyazhiwancheng").css('display', 'none');
+					$("#gouzhuangding").css('display', 'block');
+				}, 5000);
+				}, 300);
+			});
+			
+			
+			
+			$("#next2").click(function() {
+				setTimeout(function() {
+					$("#gouweicao").css('display', 'none');
+					$("#goujilu").css('display', 'block');
+				}, 300);
+			});
+			
+			$("#gouzhantieshu").click(function() {
+				$("#gouzhantieshudiv").css('display', 'block');
+			});
+			$("#gouzhantieshudiv").click(function() {
+				$("#gouzhantieshudiv").css('display', 'none');
+			});
+			
+			$("#gouzhuangdingshu").click(function() {
+				$("#gouzhuangdingshudiv").css('display', 'block');
+			});
+			$("#gouzhuangdingshudiv").click(function() {
+				$("#gouzhuangdingshudiv").css('display', 'none');
+			});
+			
+			$("#goushijianshu").click(function() {
+				$("#goushijianshudiv").css('display', 'block');
+			});
+			$("#goushijianshudiv").click(function() {
+				$("#goushijianshudiv").css('display', 'none');
+			});
+			
+			$("#goutishishu").click(function() {
+				$("#goutishishudiv").css('display', 'block');
+			});
+			$("#goutishishudiv").click(function() {
+				$("#goutishishudiv").css('display', 'none');
+			});
+			$("#kaishinext").mouseenter(function() {
+				$("#kaishinextpng").css('display', 'none');
+				$("#kaishinext2png").css('display', 'block');
+			});
+
+			$("#kaishinext").mouseleave(function() {
+				$("#kaishinext2png").css('display', 'none');
+				$("#kaishinextpng").css('display', 'block');
+			});
+
+			$("#kaishinext").click(function() {
+				setTimeout(function() {
+					$("#gouyazhikaishi").css('display', 'none');
+					$("#goukaishiyazhi").css('display', 'block');
+				}, 300);
+			});
+			
+			$("#next3").mouseenter(function() {
+				$("#nextpng3").css('display', 'none');
+				$("#next2png3").css('display', 'block');
+			});
+
+			$("#next3").mouseleave(function() {
+				$("#next2png3").css('display', 'none');
+				$("#nextpng3").css('display', 'block');
+			});
+			$("#next3").click(function() {
+				setTimeout(function() {
+					$("#gouyazhikaishi").css('display', 'block');
+					$("#goujilu").css('display', 'none');
+				}, 300);
+			});
+			$("#guangbiao1").click(function() {
+				setTimeout(function() {
+					$("#zhiwu1").css('display', 'block');
+					$("#guangbiao2").css('display', 'none');
+
+				}, 300);
+			});
+			$("#next2png").click(function() {
+				setTimeout(function() {
+					$("#gouweicao").css('display', 'block');
+					$("#gouwei1").css('display', 'none');
+					$("#zhiwu1").removeClass("cursor2");
+
+				}, 300);
+				setTimeout(function() {
+					$("#gouweicao").css('display', 'none');
+					$("#goujilu").css('display', 'block');
+
+				}, 5000);
+
+			});
+			$("#xuanzhe2").click(function() {
+				$("#gouxuanxiang2").css('display', 'block');
+				$("#gouquan2").removeClass("circle");
+				$("#zhiwu1").addClass("cursor2");
+			
+				$("#buwei2").click(function() {
+					setTimeout(function() {
+						$("#mujin2ts").css('display', 'block');
+						$("#nextpng").css('display', 'none');
+						$("#next2png").css('display', 'block');
+						$("#zhiwu1").removeClass("cursor2");
+					}, 300);
+				});
+				$("#buwei1").click(function() {
+					setTimeout(function() {
+						$("#mujin1ts").css('display', 'block');
+					}, 300);
+				});
+			});
+			$("#xuanzhe1").click(function() {
+				$("#gouxuanxiang1").css('display', 'block');
+				$("#gouquan1").removeClass("circle");
+			});
+			$("#xuanzhe3").click(function() {
+				$("#gouxuanxiang3").css('display', 'block');
+				$("#gouquan3").removeClass("circle");
+			});
+
+			
+            
+            var count21 = 1;
+            var man21= document.getElementById("mujinbiao1png");
+            setInterval(function () {
+                man21.src = "../img/guang"+count21+".png";
+                count21++;
+                if(count21== 6){
+                    count21 = 1;
+                }
+                
+            }, 300);
+            
+             var count22 = 1;
+            var man22= document.getElementById("mujinbiao2png");
+            setInterval(function () {
+                man22.src = "../img/guang"+count22+".png";
+                count22++;
+                if(count22== 6){
+                    count22 = 1;
+                }
+                
+            }, 300);
+            
+            
+		});
+	</script>
+	<script type="text/javascript">
+		var num_jia = document.getElementById("goudiv1jia");
+		var num_jian = document.getElementById("goudiv1jian");
+		var input_num = document.getElementById("input-num");
+		
+		var num_jia2 = document.getElementById("goudiv2jia");
+		var num_jian2 = document.getElementById("goudiv2jian");
+		var input_num2 = document.getElementById("input-num2");
+		
+		var num_jia3 = document.getElementById("goudiv3jia");
+		var num_jian3 = document.getElementById("goudiv3jian");
+		var input_num3 = document.getElementById("input-num3");
+		
+     	var wancheng1 = document.getElementById("gouwancheng");
+		
+		num_jia.onclick = function() {
+			
+			if(input_num.value < 2){
+				$("#guoshao1png").css('display', 'block');
+			}
+			if(input_num.value >= 2){
+				$("#guoshao1png").css('display', 'none');
+			}
+		if(input_num.value > 3){
+				$("#guoduo1png").css('display', 'block');
+			}
+			
+			input_num.value = parseInt(input_num.value) + 1;
+			
+			
+		};
+
+		num_jian.onclick = function() {
+			if(input_num.value < 4){
+				$("#guoshao1png").css('display', 'block');
+			}
+			if(input_num.value <6){
+				$("#guoduo1png").css('display', 'none');
+			}
+			if(input_num.value <= 0) {
+				input_num.value = 0;
+			}else {
+
+				input_num.value = parseInt(input_num.value) - 1;
+			}
+
+		};
+		
+		num_jia2.onclick = function() {
+			if(input_num2.value < 2){
+				$("#guoshao2png").css('display', 'block');
+			}
+			if(input_num2.value >= 2){
+				$("#guoshao2png").css('display', 'none');
+			}
+			if(input_num2.value > 3){
+				$("#guoduo2png").css('display', 'block');
+			}
+			input_num2.value = parseInt(input_num2.value) + 1;
+		};
+
+		num_jian2.onclick = function() {
+			if(input_num2.value < 4){
+				$("#guoshao2png").css('display', 'block');
+			}
+			if(input_num2.value < 6){
+				$("#guoduo2png").css('display', 'none');
+			}
+			if(input_num2.value <= 0) {
+				input_num2.value = 0;
+			}else {
+
+				input_num2.value = parseInt(input_num2.value) - 1;
+			}
+
+		};
+		
+		num_jia3.onclick = function() {
+			if(input_num3.value < 2){
+				$("#guoshao3png").css('display', 'block');
+			}
+			if(input_num3.value >= 4){
+				$("#guoshao3png").css('display', 'none');
+			}
+			if(input_num3.value > 9){
+				$("#guoduo3png").css('display', 'block');
+			}
+			input_num3.value = parseInt(input_num3.value) + 1;
+		};
+
+		num_jian3.onclick = function() {
+			if(input_num3.value < 6){
+				$("#guoshao3png").css('display', 'block');
+			}
+			if(input_num3.value < 12){
+				$("#guoduo3png").css('display', 'none');
+			}
+			if(input_num3.value <= 0) {
+				input_num3.value = 0;
+			}else {
+
+				input_num3.value = parseInt(input_num3.value) - 1;
+			}
+
+		};
+		wancheng1.onclick = function() {
+			
+			if(input_num.value > 2&&input_num.value < 5&&input_num2.value > 2&&input_num2.value < 5&&input_num3.value > 4&&input_num3.value < 11){
+				$("#mywancheng").attr ("src", "../img/wancheng.png");
+				$("#gouwanchengnextpng").css('display', 'none');
+				$("#gouwanchengnext2png").css('display', 'block');
+				setTimeout(function() {
+					$("#goukaishiyazhi").css('display', 'none');
+					$("#goushezhi").css('display', 'block');
+				}, 1000);
+			}
+			else{
+				$("#gouwanchengnext2png").css('display', 'none');
+				$("#gouwanchengnextpng").css('display', 'block');
+				$("#goutishishudiv").css('display', 'block');
+			}
+			
+		};
+	</script>
+	
+	<script type="text/javascript">
+		  
+  $(function() {
+    $( "#slider" ).slider({
+      range: "min",
+      value: 37,
+      min: 1,
+      max: 700,
+      step:20,
+      slide: function( event, ui ) {
+        $( "#amount" ).val(ui.value );
+        console.log($( "#amount" ).val());
+        if($( "#amount" ).val()=="81"){
+        	$( "#slider span" ).css("background","url(../img/lvsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannextpng").css('display', 'none');
+			$("#goushijiannext2png").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="121"){
+        	$( "#slider span" ).css("background","url(../img/lvsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannextpng").css('display', 'none');
+			$("#goushijiannext2png").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="161"){
+        	$( "#slider span" ).css("background","url(../img/lvsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannextpng").css('display', 'none');
+			$("#goushijiannext2png").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="201"){
+        	$( "#slider span" ).css("background","url(../img/lvsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannextpng").css('display', 'none');
+			$("#goushijiannext2png").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="221"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannextpng").css('display', 'none');
+			$("#goushijiannext2png").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="241"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="261"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="281"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="301"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="321"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="341"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="361"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="381"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="401"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="421"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="441"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'block');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="461"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan2").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="481"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan2").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="501"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan2").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="521"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan2").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="541"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan2").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="561"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan2").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="581"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'none');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan2").css('display', 'block');
+			$("#gouguowan").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="61"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'block');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="1"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'block');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="21"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'block');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        if($( "#amount" ).val()=="41"){
+        	$( "#slider span" ).css("background","url(../img/hongsehuakuai.png)");
+        	$( "#slider span" ).css("background-size","100% 100%");
+        	$("#goushijiannext2png").css('display', 'none');
+			$("#goushijiannextpng").css('display', 'block');
+			$("#gouguozao").css('display', 'block');
+			$("#gouheshi").css('display', 'none');
+			$("#gouguowan").css('display', 'none');
+			$("#gouguowan2").css('display', 'none');
+        }
+        
+        
+      }
+    });
+    
+    $( "#amount" ).val( "$" + $( "#slider" ).slider( "value" ) );
+    
+  });
+	</script>
+</html>

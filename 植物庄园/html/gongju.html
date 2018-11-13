@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/swiper.animate1.0.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+		<style type="text/css">
+			#lastbg{
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			#bgpng{
+				width: 100%;
+			}
+			#top{
+				position: absolute;
+				width: 92.8%;
+				height: 5.74%;
+				left: 3.6%;
+				top: 5.38%;
+			}
+			#toppng{
+				width: 100%;
+			}
+			#yifu{
+				position: absolute;
+				top: 1.67%;
+				left: 4.06%;
+				width: 91.09%;
+				height: 94.17%;
+			}
+			#yifupng{
+				width: 100%;
+			}
+			#next{
+				position: absolute;
+				width: 4.06%;
+				height: 7.217%;
+				top: 88.3%;
+				left: 91.4%;
+			}
+			#nextpng{
+				width: 100%;
+			}
+			#next2png{
+				position: absolute;
+				top: -10%;
+				left: -9%;
+				width: 118%;
+				display: none;
+			}
+			#qipao1{
+				position: absolute;
+				width: 19.16%;
+				height: 33.88%;
+				top: 11.28%;
+				left: 19.9%;
+			}
+			#qipao1png{
+				position: absolute;
+				width: 100%;
+			}
+			#qipao2{
+				position: absolute;
+				width: 19.9%;
+				height: 36.1%;
+				top: 19.8%;
+				left: 46%;
+			}
+			#qipao2png{
+				position: absolute;
+				width: 100%;
+			}
+			#qipao3{
+				position: absolute;
+				width: 25.1%;
+				height: 44.25%;
+				top: 12.04%;
+				left: 71%;
+			}
+			#qipao3png{
+				position: absolute;
+				width: 100%;
+			}
+			#qipao4{
+				position: absolute;
+				width: 16.6%;
+				height: 27.76%;
+				top: 43.7%;
+				left: 3.75%;
+			}
+			#qipao4png{
+				position: absolute;
+				width: 100%;
+			}
+			#qipao5{
+				position: absolute;
+				width: 25.9%;
+				height: 46.66%;
+				top: 48.1%;
+				left: 23.75%;
+			}
+			#qipao5png{
+				position: absolute;
+				width: 100%;
+			}
+			#qipao6{
+				position: absolute;
+				width: 16.87%;
+				height: 29.63%;
+				top: 63.33%;
+				left: 69.89%;
+			}
+			#qipao6png{
+				position: absolute;
+				width: 100%;
+			}
+			#yifu1png{
+				position: absolute;
+				width: 77.73%;
+				top:23.43% ;
+				left: 13%;
+			}
+			#yifu2png{
+				position: absolute;
+				height: 55.54%;
+				width: 78.88%;
+				left:9.27%;
+				top: 20%;
+			}
+			#yifu3png{
+				position: absolute;
+				height: 73.75%;
+				width: 59.84%;
+				left:28.46%;
+				top: 16.9%;
+			}
+			#yifu4png{
+				position: absolute;
+				height: 47%;
+				width: 65.82%;
+				left:14.52%;
+				top: 22.83%;
+			}
+			#yifu5png{
+				position: absolute;
+				height: 76.7%;
+				width: 64.5%;
+				left:20.57%;
+				top: 9.46%;
+			}
+			#yifu6png{
+				position: absolute;
+				height: 67.7%;
+				width: 82.46%;
+				left:6.28%;
+				top: 17.13%;
+			}
+			
+			@-webkit-keyframes yifu
+			
+			{
+				0% {
+    			top: 1.67%;
+  				}
+
+  				50% {
+  				top: 3.67%;	
+  				}
+
+  				100% {
+    			top: 1.67%;
+  				}
+			}
+			@-webkit-keyframes myfirst1
+			
+			{
+				0% {
+    			top: 8.28%;
+  				}
+
+  				50% {
+  				top: 14.28%;	
+  				}
+
+  				100% {
+    			top: 8.28%;
+  				}
+			}
+			@-webkit-keyframes myfirst2
+			
+			{
+				0% {
+    			top: 18.8%;
+  				}
+
+  				50% {
+  				top: 22.8%;
+  				}
+
+  				100% {
+    			top: 18.8%;
+  				}
+			}
+			
+			@-webkit-keyframes myfirst3
+			
+			{
+				0% {
+    			top: 10%;
+  				}
+
+  				50% {
+  				top: 14%;
+  				}
+
+  				100% {
+    			top: 10%;
+  				}
+			}
+			@-webkit-keyframes myfirst4
+			
+			{
+				0% {
+    			top: 40%;
+  				}
+
+  				50% {
+  				top: 45%;
+  				}
+
+  				100% {
+    			top: 40%;
+  				}
+			}
+			@-webkit-keyframes myfirst5
+			
+			{
+				0% {
+    			top: 46%;
+  				}
+
+  				50% {
+  				top: 50%;
+  				}
+
+  				100% {
+    			top: 46%;
+  				}
+			}
+			@-webkit-keyframes myfirst6
+			
+			{
+				0% {
+    			top: 61%;
+  				}
+
+  				50% {
+  				top: 65%;
+  				}
+
+  				100% {
+    			top: 61%;
+  				}
+			}
+			.qipao1{
+				animation: myfirst1 3s infinite;
+			}
+			.qipao2{
+				animation: myfirst2 3s infinite;
+			}
+			.qipao3{
+				animation: myfirst3 3s infinite;
+			}
+			.qipao22{
+				animation: myfirst2 0.5s infinite;
+			}
+			.qipao33{
+				animation: myfirst3 0.5s infinite;
+			}
+			.qipao4{
+				animation: myfirst4 3s infinite;
+			}
+			.qipao44{
+				animation: myfirst4 0.5s infinite;
+			}
+			.qipao5{
+				animation: myfirst5 3s infinite;
+			}
+			.qipao6{
+				animation: myfirst6 3s infinite;
+			}
+			.yifu{
+				animation: yifu 3s infinite;
+			}
+			#chuan{
+				position: absolute;
+				width: 13.33%;
+				height: 4.8%;
+				left: 3.54%;
+				top: 13.7%;
+			}
+			#chuanpng{
+				width: 100%;
+			}
+			#maozipng{
+				position: absolute;
+				top: 80%;
+				left: -2.5%;
+				width: 105%;
+				display: none;
+				
+			}
+			#shangyipng{
+				position: absolute;
+				top: 90%;
+				left: 0;
+				width: 100%;
+				display: none;
+			}
+			#xiezipng{
+				position: absolute;
+				top: 90%;
+				left:-19%;
+				width: 138%;
+				display: none;
+			}
+	</style>
+	</head>
+	<body>
+		<div id="lastbg">
+			<img id="bgpng" src="../img/lastbg.png" />
+			<div id="top">
+				<img id="toppng" src="../img/head.png"/>
+			</div>
+			<div class="yifu" id="yifu">
+				<img id="yifupng" src="../img/yifu.png"/>
+			</div>
+			<div id="chuan">
+				<img id="chuanpng" src="../img/chuan.png"/>
+			</div>
+			<div id="next">
+				<img id="nextpng" src="../img/yifuqiangjin1.png"/>
+				<img id="next2png" src="../img/yifuqianjin2.png"/>
+			</div>
+			<div class="qipao1" id="qipao1">
+				<img id="yifu1png" src="../img/yifu1.png" />
+				<img id="maozipng" src="../img/maozizi.png"/>
+				<img id="qipao1png" src="../img/qipao1.png"/>
+			</div>
+			<div class="qipao2" id="qipao2">
+				<img id="yifu2png" src="../img/yifu2.png"/>
+				<img id="qipao2png" src="../img/qipao2.png"/>
+			</div>
+			<div class="qipao3" id="qipao3">
+				<img id="yifu3png" src="../img/yifu3.png"/>
+				<img id="qipao3png" src="../img/qipao3.png"/>
+			</div>
+			<div class="qipao4" id="qipao4">
+				<img id="yifu4png" src="../img/yifu4.png"/>
+				<img id="qipao4png" src="../img/qipao4.png"/>
+			</div>
+			<div class="qipao5" id="qipao5">
+				<img id="yifu5png" src="../img/yifu5.png"/>
+				<img id="shangyipng" src="../img/shangyizi.png"/>
+				<img id="qipao5png" src="../img/qipao5.png"/>
+			</div>
+			<div class="qipao6" id="qipao6">
+				<img id="yifu6png" src="../img/yifu6.png"/>
+				<img id="xiezipng" src="../img/xiezizi.png"/>
+				<img id="qipao6png" src="../img/qipao6.png"/>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+     		
+		  	
+		  	$("#next2png").click(function() {
+               	setTimeout(function(){
+               	window.location.href="zhuangbei.html";
+      				},300);
+        	});
+        	$("#qipao1").click(function() {
+               	setTimeout(function(){
+               	$("#qipao1png").css('display','none');
+               	$("#qipao1").removeClass("qipao1");
+      				},300);
+      			
+      			setTimeout(function(){
+               	$("#maozipng").css('display','block');
+               	var display1 =$('#maozipng').css('display');
+     			var display2 =$('#xiezipng').css('display');
+     			var display3 =$('#shangyipng').css('display');
+               if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      				},400);	
+      				
+      			
+        	});
+        	$("#qipao5").click(function() {
+               	setTimeout(function(){
+               	$("#qipao5png").css('display','none');
+               	$("#qipao5").removeClass("qipao5");
+      				},300);
+      			setTimeout(function(){
+               	$("#shangyipng").css('display','block');
+               	var display1 =$('#maozipng').css('display');
+     			var display2 =$('#xiezipng').css('display');
+     			var display3 =$('#shangyipng').css('display');
+               if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      				},400);	
+        	});
+        	$("#qipao6").click(function() {
+               	setTimeout(function(){
+               	$("#qipao6png").css('display','none');
+               	$("#qipao6").removeClass("qipao6");
+      				},300);
+      			setTimeout(function(){
+               	$("#xiezipng").css('display','block');
+               	var display1 =$('#maozipng').css('display');
+     			var display2 =$('#xiezipng').css('display');
+     			var display3 =$('#shangyipng').css('display');
+               if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      				},400);	
+        	});
+        	$("#qipao2").click(function() {
+               	setTimeout(function(){
+               	
+               	$("#qipao2").addClass("qipao22");
+      				},300);
+      			setTimeout(function(){
+               	$("#qipao2").removeClass("qipao22");
+      				},2300);	
+        	});
+        	$("#qipao3").click(function() {
+               	setTimeout(function(){
+               	
+               	$("#qipao3").addClass("qipao33");
+      				},300);
+      			setTimeout(function(){
+               	$("#qipao3").removeClass("qipao33");
+      				},2300);	
+        	});
+        	$("#qipao4").click(function() {
+               	setTimeout(function(){
+               	
+               	$("#qipao4").addClass("qipao44");
+      				},300);
+      			setTimeout(function(){
+               	$("#qipao4").removeClass("qipao44");
+      				},2300);	
+        	});
+     });
+		
+	</script>
+</html>

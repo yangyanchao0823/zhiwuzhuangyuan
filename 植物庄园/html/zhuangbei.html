@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/swiper.animate1.0.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+		<style type="text/css">
+			
+			#lastbg{
+				
+				width: 100%;
+				
+				position: fixed;
+				overflow: hidden;
+			}
+			#bgpng{
+				width:100%;
+			
+				
+			}
+			#top{
+				position: absolute;
+				width: 92.8%;
+				height: 5.74%;
+				left: 3.6%;
+				top: 5.38%;
+			}
+			#toppng{
+				width: 100%;
+			}
+			#yifu{
+				position: absolute;
+				top: 12.3%;
+				left: 4.06%;
+				width: 91.09%;
+				height: 94.17%;
+			}
+			#yifupng{
+				width: 100%;
+			}
+			#next{
+				position: absolute;
+				width: 4.06%;
+				height: 7.217%;
+				top: 88.3%;
+				left: 91.4%;
+			}
+			#nextpng{
+				width: 100%;
+			}
+			#next2png{
+				position: absolute;
+				top: -10%;
+				left: -9%;
+				width: 118%;
+				display: none;
+			}
+			#gongju1{
+				position: absolute;
+				width: 16.97%;
+				height: 24.8%;
+				top: 24%;
+				left: 4.26%;
+			}
+			#gongju1png{
+				width: 100%;
+			}
+			#gongju2{
+				position: absolute;
+				width: 15.59%;
+				height: 13.88%;
+				top: 20.91%;
+				left: 27.29%;
+			}
+			#gongju2png{
+				width: 100%;
+			}
+			#gongju3{
+				position: absolute;
+				width: 17.08%;
+				height: 26.11%;
+				top: 15.56%;
+				left: 50.42%;
+			}
+			#gongju3png{
+				width: 100%;
+			}
+			#gongju4{
+				position: absolute;
+				width: 20.83%;
+				height: 38.13%;
+				top: 15.74%;
+				left: 70.84%;
+			}
+			#gongju4png{
+				width: 100%;
+			}
+			#gongju5{
+				position: absolute;
+				width: 21.35%;
+				height: 29.08%;
+				top:68.34%;
+				left: 4.37%;
+			}
+			#gongju5png{
+				width: 100%;
+			}
+			#gongju6{
+				position: absolute;
+				width: 24.89%;
+				height: 27%;
+				top:48.55%;
+				left: 22.41%;
+			}
+			#gongju6png{
+				width: 100%;
+			}
+			#gongju7{
+				position: absolute;
+				width: 10.73%;
+				height: 25%;
+				top:57.58%;
+				left: 44.95%;
+			}
+			#gongju7png{
+				width: 100%;
+			}
+			#gongju8{
+				position: absolute;
+				width: 19.93%;
+				height: 15.93%;
+				top:55.33%;
+				left: 58.56%;
+			}
+			#gongju8png{
+				width: 100%;
+			}
+			#gongju9{
+				position: absolute;
+				width: 13.64%;
+				height: 22.23%;
+				top:47.58%;
+				left: 82.11%;
+			}
+			#gongju9png{
+				width: 100%;
+			}
+			#beibao1{
+				position: absolute;
+				width: 17.82%;
+				height: 31.67%;
+				top:76.48%;
+				left: 66.62%;
+				z-index: 20;
+			}
+			#beibao2{
+				position: absolute;
+				width: 17.72%;
+				height: 31.57%;
+				top:76.38%;
+				left: 66.92%;
+				z-index: 20;
+			}
+			#beibao3{
+				position: absolute;
+				width: 17.52%;
+				height: 31.47%;
+				top:76.48%;
+				left: 66.95%;
+				z-index: 20;
+			}
+			#beibao4{
+				position: absolute;
+				width: 17.32%;
+				height: 31.37%;
+				top:76.58%;
+				left: 66.97%;
+				z-index: 20;
+			}
+			#beibao5{
+				position: absolute;
+				width: 17.22%;
+				height: 31.27%;
+				top:76.68%;
+				left: 66.98%;
+				z-index: 20;
+			}
+			#beibao6{
+				position: absolute;
+				width: 17.21%;
+				height: 31.26%;
+				top:76.69%;
+				left: 66.99%;
+				z-index: 20;
+			}
+			#beibao7{
+				position: absolute;
+				width: 17.20%;
+				height: 31.25%;
+				top:76.70%;
+				left: 67%;
+				z-index: 20;
+			}
+			#beibao8{
+				position: absolute;
+				width: 17.19%;
+				height: 31.24%;
+				top:76.71%;
+				left: 67.01%;
+				z-index: 20;
+			}
+			#beibao9{
+				position: absolute;
+				width: 17.18%;
+				height: 31.23%;
+				top:76.72%;
+				left: 67.02%;
+				z-index: 20;
+			}
+			.gongju{
+				width: 100%;
+				display: none;
+			}
+			#ti1png{
+				position: absolute;
+				top: 47.83%;
+				left:30% ;
+				width: 40.54%;
+				display: none;
+			}
+			#ti2png{
+				position: absolute;
+				top: 30.83%;
+				left:7.5% ;
+				width: 85.54%;
+				display: none;
+			}
+			#ti2png{
+				position: absolute;
+				top: 30.83%;
+				left:7.5% ;
+				width: 85.54%;
+				display: none;
+			}
+			#ti3png{
+				position: absolute;
+				top: 50.83%;
+				left:18.5% ;
+				width: 65.54%;
+				display: none;
+			}
+			#ti4png{
+				position: absolute;
+				top: 28.83%;
+				left:20.5% ;
+				width: 65.54%;
+				display: none;
+			}
+			#ti5png{
+				position: absolute;
+				top: 37.83%;
+				left:1.5% ;
+				width: 65.54%;
+				display: none;
+			}
+			#ti6png{
+				position: absolute;
+				top: 28.83%;
+				left:13.5% ;
+				width: 55.54%;
+				display: none;
+			}
+			#ti7png{
+				position: absolute;
+				top: 58.83%;
+				left:20.5% ;
+				width: 60.54%;
+				display: none;
+			}
+			#ti8png{
+				position: absolute;
+				top: 39.83%;
+				left:3.5% ;
+				width: 60.54%;
+				display: none;
+			}
+			#ti9png{
+				position: absolute;
+				top: 40.83%;
+				left:10.5% ;
+				width: 70.54%;
+				display: none;
+			}
+			#deng{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: black;
+				z-index: 100;
+			}
+	</style>
+	</head>
+	<body>
+		<div>
+			
+		</div>
+		<div id="lastbg">
+			<img id="bgpng" src="../img/lastbg.png" />
+			<div id="top">
+				<img id="toppng" src="../img/head.png"/>
+			</div>
+			<div id="yifu">
+				<img id="yifupng" src="../img/gongju.png"/>
+			</div>
+			<div id="next">
+				<img id="nextpng" src="../img/yifuqiangjin1.png"/>
+				<img id="next2png" src="../img/yifuqianjin2.png"/>
+			</div>
+			<div id="gongju1">
+				<img id="gongju1png" src="../img/gongju1.png"/>
+				<img id="gongju11png" class="gongju" src="../img/gongju11.png"/>
+				<img id="ti1png" src="../img/ti1.png" />
+			</div>
+			<div id="gongju2">
+				<img id="gongju2png" src="../img/gongju2.png"/>
+				<img id="gongju22png" class="gongju" src="../img/gongju22.png"/>
+				<img id="ti2png" src="../img/ti2.png" />
+			</div>
+			<div id="gongju3">
+				<img id="gongju3png" src="../img/gongju3.png"/>
+				<img id="gongju33png" class="gongju" src="../img/gongju33.png"/>
+				<img id="ti3png" src="../img/ti3.png" />
+			</div>
+			<div id="gongju4">
+				<img id="gongju4png" src="../img/gongju4.png"/>
+				<img id="gongju44png" class="gongju" src="../img/gongju44.png"/>
+				<img id="ti4png" src="../img/ti4.png" />
+			</div>
+			<div id="gongju5">
+				<img id="gongju5png" src="../img/gongju5.png"/>
+				<img id="gongju55png" class="gongju" src="../img/gongju55.png"/>
+				<img id="ti5png" src="../img/ti5.png" />
+			</div>
+			<div id="gongju6">
+				<img id="gongju6png" src="../img/gongju6.png"/>
+				<img id="gongju66png" class="gongju" src="../img/gongju66.png"/>
+				<img id="ti6png" src="../img/ti6.png" />
+			</div>
+			<div id="gongju7">
+				<img id="gongju7png" src="../img/gongju7.png"/>
+				<img id="gongju77png" class="gongju" src="../img/gongju77.png"/>
+				<img id="ti7png" src="../img/ti7.png" />
+			</div>
+			<div id="gongju8">
+				<img id="gongju8png" src="../img/gongju8.png"/>
+				<img id="gongju88png" class="gongju" src="../img/gongju88.png"/>
+				<img id="ti8png" src="../img/ti8.png" />
+			</div>
+			<div id="gongju9">
+				<img id="gongju9png" src="../img/gongju9.png"/>
+				<img id="gongju99png" class="gongju" src="../img/gongju99.png"/>
+				<img id="ti9png" src="../img/ti9.png" />
+			</div>
+			<div class="beibao" id="beibao1"></div>
+			<div class="beibao" id="beibao2"></div>
+			<div class="beibao" id="beibao3"></div>
+			<div class="beibao" id="beibao4"></div>
+			<div class="beibao" id="beibao5"></div>
+			<div class="beibao" id="beibao6"></div>
+			<div class="beibao" id="beibao7"></div>
+			<div class="beibao" id="beibao8"></div>
+			<div class="beibao" id="beibao9"></div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#next2png").click(function() {
+               	setTimeout(function(){
+               	window.location.href="caiji.html";
+      				},300);
+        	});
+    		$("#deng").css("display","none");
+    $( "#gongju1png" ).draggable({ revert: "invalid" });
+    $( "#gongju2png" ).draggable({ revert: "invalid" });
+    $( "#gongju3png" ).draggable({ revert: "invalid" });
+    $( "#gongju4png" ).draggable({ revert: "invalid" });
+    $( "#gongju5png" ).draggable({ revert: "invalid" });
+    $( "#gongju6png" ).draggable({ revert: "invalid" });
+    $( "#gongju7png" ).draggable({ revert: "invalid" });
+    $( "#gongju8png" ).draggable({ revert: "invalid" });
+    $( "#gongju9png" ).draggable({ revert: "invalid" });
+    $( "#beibao1" ).droppable({
+    accept: "#gongju1png", 
+      drop: function() {
+      	
+      				$("#gongju1png").css("display","none");
+      				$("#gongju11png").css("display","block");
+      				$("#ti1png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+    $( "#beibao2" ).droppable({
+    	accept: "#gongju2png", 	
+      drop: function() {
+      				$("#gongju2png").css("display","none");
+      				$("#gongju22png").css("display","block");
+      				$("#ti2png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+    $( "#beibao3" ).droppable({
+    	accept: "#gongju3png", 	
+      drop: function() {
+      				$("#gongju3png").css("display","none");
+      				$("#gongju33png").css("display","block");
+      				$("#ti3png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+    $( "#beibao4" ).droppable({
+    	accept: "#gongju4png", 	
+      drop: function() {
+      				$("#gongju4png").css("display","none");
+      				$("#gongju44png").css("display","block");
+      				$("#ti4png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+    $( "#beibao5" ).droppable({
+    	accept: "#gongju5png", 	
+      drop: function() {
+      				$("#gongju5png").css("display","none");
+      				$("#gongju55png").css("display","block");
+      				$("#ti5png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+    $( "#beibao6" ).droppable({
+    	accept: "#gongju6png", 	
+      drop: function() {
+      				$("#gongju6png").css("display","none");
+      				$("#gongju66png").css("display","block");
+      				$("#ti6png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+    $( "#beibao7" ).droppable({
+    	accept: "#gongju7png", 	
+      drop: function() {
+      				$("#gongju7png").css("display","none");
+      				$("#gongju77png").css("display","block");
+      				$("#ti7png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+    $( "#beibao8" ).droppable({
+    	accept: "#gongju8png", 	
+      drop: function() {
+      				$("#gongju8png").css("display","none");
+      				$("#gongju88png").css("display","block");
+      				$("#ti8png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+    $( "#beibao9" ).droppable({
+    	accept: "#gongju9png", 	
+      drop: function() {
+      				$("#gongju9png").css("display","none");
+      				$("#gongju99png").css("display","block");
+      				$("#ti9png").css("display","block");
+      				var display1 =$('#ti1png').css('display');
+      				var display2 =$('#ti2png').css('display');
+      				var display3 =$('#ti3png').css('display');
+      				var display4 =$('#ti4png').css('display');
+      				var display5 =$('#ti5png').css('display');
+      				var display6 =$('#ti6png').css('display');
+      				var display7 =$('#ti7png').css('display');
+      				var display8 =$('#ti8png').css('display');
+      				var display9 =$('#ti9png').css('display');
+               		if(display1 == 'block'&&display2 == 'block'&&display3 == 'block'&&display4 == 'block'&&display5 == 'block'
+               		&&display6 == 'block'&&display7 == 'block'
+               		&&display8 == 'block'&&display9 == 'block'){
+      				$("#nextpng").css('display','none');
+   					$("#next2png").css('display','block');}
+      }
+    });
+  });
+ 
+	</script>
+</html>

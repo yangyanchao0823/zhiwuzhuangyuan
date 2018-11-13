@@ -1,0 +1,1258 @@
+			#caijibg{
+				position: relative;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				
+			}
+			
+			#caijipng{
+				width: 100%;
+			}
+			#guangbiao1{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 9.37%;
+				top: 36.85%;
+			}
+			.guangpng{
+				position: absolute;
+				width: 100%;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom:0;
+				margin: auto;
+			}
+			#gouzhen{
+				position: absolute;
+				width: 17.55%;
+				height: 34.06%;
+				top: 12.41%;
+				left: 71.41%;
+				display: none;
+			}
+			#mujinzhen{
+				position: absolute;
+				width: 17.55%;
+				height: 34.06%;
+				top: 11.41%;
+				left: 71.41%;
+				display: none;
+			}
+			.yazhiwenzi{
+				position: absolute;
+				width: 27.29%;
+				height: 14.35%;
+				top: 24.9%;
+				left: 5.1%;
+			}
+			#gouzhen{
+				position: absolute;
+				width: 17.55%;
+				height: 34.06%;
+				top: 11.41%;
+				left: 71.41%;
+				display: none;
+			}
+			#jilubiao{
+				position: absolute;
+				width: 9.27%;
+				height:4.356% ;
+				top: 51.68%;
+				left: 21.4%;
+			}
+			#jiandingbiao{
+				position: absolute;
+				width: 9.27%;
+				height:4.356% ;
+				top: 70.73%;
+				left: 21.4%;
+			}
+			#guangbiao2{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 9.37%;
+				top: 67.4%;
+			}
+			#guangbiao3{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 16.46%;
+				top: 12.23%;
+			}
+			#guangbiao4{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 36.77%;
+				top: 34.61%;
+			}
+			#guangbiao5{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 37.55%;
+				top: 80.45%;
+			}
+			#guangbiao6{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 45.72%;
+				top: 63.7%;
+			}
+			#guangbiao7{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 65.83%;
+				top: 15.74%;
+			}
+			#guangbiao8{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 84.89%;
+				top: 70%;
+			}
+			#guangbiao9{
+				position: absolute;
+				width: 3.17%;
+				height: 5.62%;
+				left: 90.41%;
+				top: 46.29%;
+			}
+			#zhiwu1{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display:none;
+			}
+			#zhizhu2{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			#zhiwu1png{
+				width: 100%;
+			}
+			.zhiwupng{
+				width: 100%;
+			}
+			#goupng{
+				position: absolute;
+				width: 69.58%;
+				height:99.5% ;
+				top: 0;
+				left: 1.87%;
+			}
+			.zhijian{
+				position: absolute;
+				width: 69.58%;
+				height:99.5% ;
+				top: 0;
+				left: 1.87%;
+			}
+			#gouxuanxiang1{
+				position: absolute;
+				width: 2.28%;
+				height: 4.06%;
+				left:17.08% ;
+				top: 31.28%;
+				display: none;
+			}
+			.panduan1{
+				position: absolute;
+				width: 2.28%;
+				height: 4.06%;
+				left:17.08% ;
+				top: 31.28%;
+				display: none;
+			}
+			#gou1png{
+				width: 100%;
+			}
+			#gouxuanxiang2{
+				position: absolute;
+				width: 2.28%;
+				height: 4.06%;
+				left:17.08% ;
+				top: 53.7%;
+				display: none;
+			}
+			.panduan2{
+				position: absolute;
+				width: 2.28%;
+				height: 4.06%;
+				left:17.08% ;
+				top: 53.7%;
+				display: none;
+			}
+			#gou2png{
+				width: 100%;
+			}
+			#gouxuanxiang3{
+				position: absolute;
+				width: 2.28%;
+				height: 4.06%;
+				left:17.08% ;
+				top: 76.48%;
+				display: none;
+			}
+			.panduan3{
+				position: absolute;
+				width: 2.28%;
+				height: 4.06%;
+				left:17.08% ;
+				top: 76.48%;
+				display: none;
+			}
+			#gou3png{
+				width: 100%;
+			}
+			#xuanzhe1{
+				position: absolute;
+				width: 18.53%;
+				height: 23.51%;
+				top: 13.29%;
+				left: 5%;
+			}
+			.xuanzhe1{
+				position: absolute;
+				width: 18.53%;
+				height: 23.51%;
+				top: 13.29%;
+				left: 5%;
+			}
+			#xuanzhe3{
+				position: absolute;
+				width: 18.53%;
+				height: 23.51%;
+				top: 60.31%;
+				left: 5%;
+			}
+			.xuanzhe3{
+				position: absolute;
+				width: 18.53%;
+				height: 23.51%;
+				top: 60.31%;
+				left: 5%;
+			}
+			#xuanzhe2{
+				position: absolute;
+				width: 18.53%;
+				height: 23.51%;
+				top: 36.8%;
+				left: 5%;
+			}
+			.xuanzhe2{
+				position: absolute;
+				width: 18.53%;
+				height: 23.51%;
+				top: 36.8%;
+				left: 5%;
+			}
+			.cursor{
+				width: 2rem;
+    			cursor:url(../img/gougongju.png),auto; 
+    		}
+    		.cursor2{
+				width: 2rem;
+    			cursor:url(../img/zhijiangongju.png),auto; 
+    		}
+    		.cursor3{
+				width: 2rem;
+    			cursor:url(../img/gaozhijiangongju.png),auto; 
+    		}
+    		#goubiao1{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19%;
+    			top: 81.86%;
+    			left: 48%;
+    		}
+    		#mujinbiao1{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19%;
+    			top: 24.43%;
+    			left: 50.46%;
+    		}
+    		#fengxiangbiao1{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19;
+    			top: 36.66%;
+    			left: 50.89%;
+    		}
+    		#fengxiangbiao2{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19%;
+    			top: 62.23%;
+    			left: 50.89%;
+    		}
+    		#fengxiangbiao3{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19%;
+    			top: 77.5%;
+    			left: 40.46%;
+    		}
+    		#fengxiangbiao4{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19%;
+    			top: 88.5%;
+    			left: 40.46%;
+    		}
+    		#goubiao1png{
+    			width: 100%;
+    		}
+    		#goubiao2{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19;
+    			top: 65.38%;
+    			left: 54.27%;
+    		}
+    		#mujinbiao2{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19%;
+    			top: 43.04%;
+    			left: 45.57%;
+    		}
+    		#goubiao2png{
+    			width: 100%;
+    		}
+    		#goubiao3{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19%;
+    			top: 47.21%;
+    			left: 51.14%;
+    		}
+    		#goubiao3png{
+    			width: 100%;
+    		}
+    		#goubiao4{
+    			position: absolute;
+    			width: 2.92%;
+    			height: 5.19%;
+    			top: 10.91%;
+    			left: 57.19%;
+    		}
+    		#goubiao4png{
+    			width: 100%;
+    		}
+    		#gou1ts{
+    			position: absolute;
+    			width: 42.3%;
+    			top: 78.53%;
+    			left: 53.44%;
+    			display: none;
+    		}
+    		#mujin1ts{
+    			position: absolute;
+    			width: 44.94%;
+    			top: 28.34%;
+    			left: 50.62%;
+    			display: none;
+    		}
+    		#mujin2ts{
+    			position: absolute;
+    			width: 48.13%;
+    			top: 44.8%;
+    			left: 48.95%;
+    			display: none;
+    		}
+    		#fengtishi1{
+    			position: absolute;
+    			width: 46.46%;
+    			top: 39.08%;
+    			left: 48.13%;
+    			display:none ;
+    		}
+    		#fengtishi2{
+    			position: absolute;
+    			width: 40.42%;
+    			top: 63.62%;
+    			left: 54.17%;
+    			display: none;
+    		}
+    		#fengtishi3{
+    			position: absolute;
+    			width: 52.76%;
+    			top: 77.5%;
+    			left: 44.94%;
+    			display:none ;
+    		}
+    		.tishi{
+    			width: 100%;
+    		}
+    		#gou2ts{
+    			position: absolute;
+    			width: 39.48%;
+    			top: 60.18%;
+    			left: 56.35%;
+    			display: none;
+    		}
+    		#gou3ts{
+    			position: absolute;
+    			width: 47.29%;
+    			top: 47.95%;
+    			left: 48%;
+    			display: none;
+    		}
+    		#gou4ts{
+    			position: absolute;
+    			width: 34.46%;
+    			top: 5.19%;
+    			left: 58.43%;
+    			display: none;
+    		}
+    		#next{
+				position: absolute;
+				width: 4.06%;
+				height: 7.217%;
+				top: 88.3%;
+				left: 91.4%;
+			}
+			#nextpng{
+				width: 100%;
+			}
+			#next2png{
+				position: absolute;
+				top: -10%;
+				left: -9%;
+				width: 118%;
+				display: none;
+			}
+			#next2{
+				position: absolute;
+				width: 4.06%;
+				height: 7.217%;
+				top: 88.3%;
+				left: 91.4%;
+			}
+			#nextpng2{
+				width: 100%;
+			}
+			#next2png2{
+				position: absolute;
+				top: -10%;
+				left: -9%;
+				width: 118%;
+				display: none;
+			}
+			#next3{
+				position: absolute;
+				width: 4.06%;
+				height: 7.217%;
+				top: 88.3%;
+				left: 91.4%;
+			}
+			#nextpng3{
+				width: 100%;
+			}
+			#next2png3{
+				position: absolute;
+				top: -10%;
+				left: -9%;
+				width: 118%;
+				display: none;
+			}
+			#buwei1{
+				position: absolute;
+				width: 43%;
+				height: 38.53%;
+				left: 28.74%;
+				top: 0;
+				z-index: 20;
+			}
+			#fengbuwei1{
+				position: absolute;
+				width: 43%;
+				height: 21.86%;
+				left: 28.74%;
+				top: 33.33%;
+				z-index: 20;
+			}
+			#fengbuwei2{
+				position: absolute;
+				width: 43%;
+				height: 21.86%;
+				left: 28.74%;
+				top: 53.8%;
+				z-index: 20;
+			}
+			#fengbuwei3{
+				position: absolute;
+				width: 43%;
+				height: 21.86%;
+				left: 28.74%;
+				top: 74.72%;
+				z-index: 20;
+			}
+			#mujinbuwei1{
+				position: absolute;
+				width: 43%;
+				height: 13.8%;
+				left: 28.74%;
+				top: 22.23%;
+				z-index: 20;
+			}
+			#buwei2{
+				position: absolute;
+				width: 43%;
+				height: 20%;
+				left: 28.74%;
+				top: 38.53%;
+				z-index: 20;
+			}
+			#mujinbuwei2{
+				position: absolute;
+				width: 43%;
+				height: 13.8%;
+				left: 28.74%;
+				top: 36.03%;
+				z-index: 20;
+			}
+			#buwei3{
+				position: absolute;
+				width: 43%;
+				height: 20%;
+				left: 28.74%;
+				top: 58.53%;
+				z-index: 20;
+			}
+			#buwei4{
+				position: absolute;
+				width: 43%;
+				height: 21%;
+				left: 28.74%;
+				top: 78.53%;
+				z-index: 20;
+			}
+			#gouweicao{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			#mujinhua{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			#gouweicaobg{
+				width: 100%;
+			}
+			#top{
+				position: absolute;
+				width: 92.8%;
+				height: 5.74%;
+				left: 3.6%;
+				top: 5.38%;
+			}
+			#toppng{
+				width: 100%;
+			}
+			#caojiesao{
+				position: absolute;
+				width: 57.4%;
+				height: 77.03%;
+				left: 21.67%;
+				top: 16.85%;
+			}
+			#caojiesaopng{
+				width: 100%;
+			}
+			#goujilu{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			#mujinjilu{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			#gouweicaobg{
+				width: 100%;
+			}
+			#goujilun{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				height: 0;
+			}
+			#mujinjilun{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				height: 0;
+			}
+			#goujilunpng{
+				width: 100%;
+			}
+			.next{
+				position: absolute;
+				width: 4.06%;
+				height: 7.217%;
+				top: 88.3%;
+				left: 91.4%;
+			}
+			.nextpng{
+				width: 100%;
+			}
+			.next2png{
+				position: absolute;
+				top: -10%;
+				left: -9%;
+				width: 118%;
+				display: none;
+			}
+			#x {
+				position: absolute;
+				top: 36.7%;
+				left: 75.5%;
+				width: 10%;
+				height: 3%;
+				color: blue;
+			}
+			.zhantiwenzi{
+				position: absolute;
+				width: 24.64%;
+				height: 8.6%;
+				top: 24.82%;
+				left: 5.25%;
+			}
+			#l {
+				position: absolute;
+				top: 36.7%;
+				left: 75.5%;
+				width: 10%;
+				height: 3%;
+				color: #535353;
+			}
+			
+			#bianhao1 {
+				position: absolute;
+				top: 31.5%;
+				left: 66%;
+				width: 10%;
+				height: 3%;
+				color: #535353;
+				font-size: 1rem;
+			}
+			
+			#gouyazhikaishi {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			#mujinyazhikaishi {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			
+			#yazhikaishipng {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
+			#goukaishiyazhi{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			#mujinkaishiyazhi{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			#goudiv1{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 28.8%;
+				left: 49.3%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			.shurudiv1{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 28.8%;
+				left: 49.3%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			#goudiv2{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 49.2%;
+				left: 49.3%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			.shurudiv2{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 49.2%;
+				left: 49.3%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			#goudiv3{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 72.3%;
+				left: 49.3%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			.shurudiv3{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 72.3%;
+				left: 49.3%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			#gouti1{
+				position: absolute;
+				width: 24.37%;
+				/*height: 4.068%;*/
+				top: 28%;
+				left: 64.32%;
+			}
+			#gouti2{
+				position: absolute;
+				width: 24.37%;
+				/*height: 4.068%;*/
+				top: 48.53%;
+				left: 64.32%;
+			}
+			#gouti3{
+				position: absolute;
+				width: 24.37%;
+				/*height: 4.068%;*/
+				top: 71.57%;
+				left: 64.32%;
+			}
+			.tishi1{
+				position: absolute;
+				width: 24.37%;
+				/*height: 4.068%;*/
+				top: 28%;
+				left: 64.32%;
+			}
+			.tishi2{
+				position: absolute;
+				width: 24.37%;
+				/*height: 4.068%;*/
+				top: 48.53%;
+				left: 64.32%;
+			}
+			.tishi3{
+				position: absolute;
+				width: 24.37%;
+				/*height: 4.068%;*/
+				top: 71.57%;
+				left: 64.32%;
+			}
+			.shuruinput{
+				border: none;
+				background: none;
+				width: 100%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			#input-num{
+				border: none;
+				background: none;
+				width: 100%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			#input-num2{
+				border: none;
+				background: none;
+				width: 100%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			#input-num3{
+				border: none;
+				background: none;
+				width: 100%;
+				color: white;
+				font-size:20px ;
+				text-align: center;
+			}
+			#goudiv1jian{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 28.8%;
+				left: 44.3%;
+			}
+			#goudiv1jia{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 28.8%;
+				left: 54.3%;
+			}
+			#goudiv2jian{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 49.2%;
+				left: 44.3%;
+			}
+			#goudiv2jia{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 49.2%;
+				left: 54.3%;
+			}
+			#goudiv3jian{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 72.3%;
+				left: 44.3%;
+			}
+			#goudiv3jia{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 72.3%;
+				left: 54.3%;
+				
+			}
+			.inpdiv1jian{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 28.8%;
+				left: 44.3%;
+			}
+			.inpdiv1jia{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 28.8%;
+				left: 54.3%;
+			}
+			.inpdiv2jian{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 49.2%;
+				left: 44.3%;
+			}
+			.inpdiv2jia{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 49.2%;
+				left: 54.3%;
+			}
+			.inpdiv3jian{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 72.3%;
+				left: 44.3%;
+			}
+			.inpdiv3jia{
+				position: absolute;
+				width: 2.18%;
+				height: 2.67%;
+				top: 72.3%;
+				left: 54.3%;
+				
+			}
+			#gouwancheng{
+				position: absolute;
+				width: 9.68%;
+				height: 5.19%;
+				top: 92.41%;
+				left: 45.16%;
+			}
+			
+			.wancheng{
+				position: absolute;
+				width: 9.68%;
+				height: 5.19%;
+				top: 92.41%;
+				left: 45.16%;
+			}
+			#goutishishu{
+				position: absolute;
+				width: 8.12%;
+				height:30.57%;
+				top: 23.04%;
+				left: 92.04%;
+			}
+			.tishishu{
+				position: absolute;
+				width: 8.12%;
+				height:30.57%;
+				top: 23.04%;
+				left: 92.04%;
+			}
+			#goutishishudiv{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			#mujinshezhi{
+				display: none;
+			}
+			.tishishudiv{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			#goushijianshu{
+				position: absolute;
+				width: 8.12%;
+				height:30.57%;
+				top: 23.04%;
+				left: 92.04%;
+			}
+			
+			.shu{
+				position: absolute;
+				width: 8.12%;
+				height:30.57%;
+				top: 23.04%;
+				left: 92.04%;
+			}
+			#goushijianshudiv{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+				z-index: 30;
+				}
+			.shudiv{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+				}	
+			#goushezhi{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display:none ;
+			}
+			#slider{
+				position: absolute;
+				width: 65.05%;
+				height: 2%;
+				left: 15.7%;
+				top: 61.94%;
+				}
+			#gouguozao{
+				position: absolute;
+				width: 25.88%;
+				height: 59.31%;
+				top: 69.63%;
+				left: 17.14%;
+				display: none;
+			}
+			#gouheshi{
+				position: absolute;
+				width: 31.67%;
+				height: 59.31%;
+				top: 69.63%;
+				left: 26.72%;
+				display: none;
+			}	
+			#gouguowan{
+				position: absolute;
+				width: 28.43%;
+				height: 59.31%;
+				top: 69.63%;
+				left: 39.17%;
+				display: none;
+			}
+			#gouguowan2{
+				position: absolute;
+				width: 28.43%;
+				height: 59.31%;
+				top: 69.63%;
+				left: 61.17%;
+				display: none;
+			}
+			#gouyazhiwancheng{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+				}
+			#gouzhuangding{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}	
+			#gouxian{
+				position: absolute;
+				width: 9.78%;
+				height:5%;
+				top: 53.62%;
+				left: 52.03%;
+				display: none;
+			}
+			#mujinxian{
+				position: absolute;
+				width: 16.58%;
+				height:5%;
+				top: 53.62%;
+				left: 48.23%;
+				display: none;
+			}
+			#fengxiangxian{
+				position: absolute;
+				width: 12.78%;
+				height:5%;
+				top: 53.62%;
+				left: 49.03%;
+				display: none;
+			}
+			#gouquan{
+				position: absolute;
+				width: 30.37%;
+				height:53.98%;
+				top: 12.67%;
+				left: 56.7%;
+				display: none;
+			}
+			#mujinquan{
+				position: absolute;
+				width: 30.37%;
+				height:53.98%;
+				top: 0%;
+				left: 60.7%;
+				display: none;
+			}
+			#fengxiangquan{
+				position: absolute;
+				width: 30.37%;
+				height:53.98%;
+				top: 0%;
+				left: 59.7%;
+				display: none;
+			}
+			#gouquanzuo{
+				position: absolute;
+				width: 1.506%;
+				height: 2.677%;
+				top: 44.35%;
+				left: 71.25%;
+				display: none;
+			}
+			#gouquanyou{
+				position: absolute;
+				width: 1.506%;
+				height: 2.677%;
+				top: 44.35%;
+				left: 73.74%;
+				display: none;
+			}
+			#gouquanzhong{
+				position: absolute;
+				width: 2.657%;
+				height: 2.677%;
+				top: 44.35%;
+				left: 71.87%;
+				display: none;
+				
+			}	
+			.quanzhong{
+				height: 50%;
+				position: absolute;
+				top: 25%;
+				left: 0;
+			}
+			#gouzhuangdingkuai{
+				
+				position: absolute;
+				width: 26.35%;
+				height:65.27%;
+				top: 23.62%;
+				left: 36.74%;
+			}
+			#gouzhantie{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				overflow: hidden;
+				display: none;
+			}
+			#gouzhantiejilu{
+				position: absolute;
+				width: 9.434%;
+				height:23.51%;
+				top: 40.28%;
+				left: 11.41%;
+			}	
+			#gouzhantiejianding{
+				position: absolute;
+				width: 10.26%;
+				height:11.28%;
+				top: 67.13%;
+				left: 10.94%;
+			}	
+			#gouzhantiejilubai{
+				position: absolute;
+				width: 9.234%;
+				height:22.5%;
+				top: 18.60%;
+				left: 34.63%;
+			}	
+			#gouzhantiejiandingbai{
+				position: absolute;
+				width: 10.16%;
+				height:11.28%;
+				top: 81.84%;
+				left: 53.22%;
+			}
+			#gouzhuangdingwan{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			
+			
+			#slider span{
+				background: red;
+				border: none;
+				height: 350%;
+				border-radius:50%;
+				outline: none;
+				background: url(../img/hongsehuakuai.png);
+				background-size:100% 100%;
+			}
+			#slider div{
+				background: yellow;
+				
+			}
+			.quan1{
+				position: absolute;
+				width:11.35%;
+				height: 20.18%;
+				top: 15.01%;
+				left: 8.85%;
+				
+			}
+			.quan2{
+				position: absolute;
+				width:11.35%;
+				height: 20.18%;
+				top: 37.95%;
+				left: 8.85%;
+				
+			}
+			.quan3{
+				position: absolute;
+				width:11.35%;
+				height: 20.18%;
+				top: 60.91%;
+				left: 8.85%;
+				
+			}
+			@-webkit-keyframes circle{
+
+				0%{ transform:rotate(0deg); }
+				25%{transform:rotate(-90deg);}
+				50%{ transform:rotate(-180deg); }
+				75%{transform:rotate(-270deg);}
+				100%{ transform:rotate(-360deg); }
+
+			}
+			.circle{
+				-webkit-animation:circle 10s infinite linear;
+			}

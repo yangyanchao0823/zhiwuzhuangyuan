@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			body{
+				padding: 0;
+				margin: 0;
+				overflow: hidden;
+			}
+			#bgpng{
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			#bgpngpng{
+				width: 100%;
+			}
+			#muban{
+				position: absolute;
+				top: 0;
+				left: 18.5%;
+				width: 64%;
+				height: 88.89%;
+				display: none;
+			}
+			#mubanpng{
+				width: 100%;
+			}
+			#muban2{
+				position: absolute;
+				top: 0;
+				left: 20.8%;
+				width: 64.1%;
+				height: 91.1%;
+				display: none;
+			}
+			#muban2png{
+				width: 100%;
+			}
+			#muban3{
+				position: absolute;
+				top: 0;
+				left: 17%;
+				width: 64.1%;
+				height: 90%;
+			}
+			#muban3png{
+				width: 100%;
+			}
+			#muban4{
+				position: absolute;
+				top: 0;
+				left: 17.3%;
+				width: 64.1%;
+				height: 90%;
+				display: none;
+			}
+			#muban4png{
+				width: 100%;
+			}
+			#muban5{
+				position: absolute;
+				top: 0;
+				left: 19.5%;
+				width: 64.1%;
+				height: 90%;
+				display: none;
+			}
+			#muban5png{
+				width: 100%;
+			}
+			#shuye1{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 0;
+				height: 0;
+			}
+			#yezi1{
+				width: 100%;
+			}
+			#shuye2{
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 0;
+				height: 0;
+			}
+			#yezi2{
+				width: 100%;
+			}
+			#shuye3{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 0;
+				height: 0;
+				overflow: hidden;
+			}
+			#yezi3{
+				height: 100%;
+			}
+			#shuye4{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 0;
+				height: 0;
+				overflow: hidden;
+			}
+			#yezi4{
+				height: 100%;
+			}
+			#shuye5{
+				position: absolute;
+				top: 40.7%;
+				left: 0;
+				width: 0;
+				height: 0;
+			}
+			#yezi5{
+				height: 100%;
+			}
+			#faguangpng{
+				position: absolute;
+				top: 75.5%;
+				left: 32%;
+				width: 30%;
+				display: none;
+			}
+			#hov{
+				position: absolute;
+				top: 75.5%;
+				left: 32%;
+				width: 30%;
+				height: 8%;
+				z-index: 30;
+			}		
+			#denglu {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				
+			}
+			
+			.mybox {
+				width: 100%;
+				height: 100%;
+			}
+			#guanbi {
+				position: absolute;
+				width: 3%;
+				height: 5%;
+				top: 36%;
+				left: 59%;
+			}
+			#ddenglu{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			#dianji{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+			}
+		</style>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="bgpng">
+			<img id="bgpngpng"  src="img/bgpng.png"/>
+			<div id="muban">
+				<img id="mubanpng" src="img/muban1.png" />
+				<div id="hov"></div>
+				<img id="faguangpng" src="img/faguang.png" />
+			</div>
+			<div id="muban2">
+				<img id="muban2png" src="img/muban2.png" />
+			</div>
+			<div id="muban3">
+				<img id="muban3png" src="img/muban3.png" />
+			</div>
+			<div id="muban4">
+				<img id="muban4png" src="img/muban4.png" />
+			</div>
+			<div id="muban5">
+				<img id="muban5png" src="img/muban5.png" />
+			</div>
+			<div id="shuye1">
+				<img id="yezi1" src="img/yezi1.png" />
+			</div>
+			<div id="shuye3">
+				<img id="yezi3" src="img/yezi3.png" />
+			</div>
+			<div id="shuye4">
+				<img id="yezi4" src="img/yezi4.png" />
+			</div>
+			<div id="shuye2">
+				<img id="yezi2" src="img/yezi2.png" />
+			</div>
+			<div id="shuye5">
+				<img id="yezi5" src="img/yezi5.png" />
+			</div>
+			<div id="ddenglu">
+				<div id="denglu">
+					<img id="mypng" class="mybox" src="img/endpage.png" />
+					<div id="guanbi">
+
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#hov").mouseenter(function() {
+                $("#faguangpng").css('display', 'block');
+        });
+        
+        $("#hov").mouseleave(function() {
+               $("#faguangpng").css('display', 'none');
+        }); 
+		  	$("#guanbi").click(function() {
+			$("#ddenglu").css("display", "none")
+		});
+		  	var myname = $.cookie('userId');
+		if(myname == null){
+			
+		  	$("#hov").click(function() {
+               setTimeout(function(){
+              $("#ddenglu").css("display", "block")
+               	localStorage.clear();
+               
+      				},300);
+        });
+				
+			}
+			else{
+				
+		  	$("#hov").click(function() {
+               setTimeout(function(){
+               	window.location.href="html/last.html";
+               	localStorage.clear();
+               
+      				},300);
+        });
+			}
+		  	
+		  	
+		  	
+		  	
+			
+			setTimeout(function(){
+						$("#shuye1").animate({width: "24.9%",
+							height: "49.8%",
+							left:("0"),
+							top:("0")}, 1000);
+					},1000);
+			setTimeout(function(){
+						$("#shuye2").animate({width: "30.4%",
+							height: "54.2%",
+							right:("0"),
+							top:("0")}, 1000);
+					},1000);
+			setTimeout(function(){
+						$("#shuye3").animate({width: "28.5%",
+							height: "41.67%",
+							left:("0"),
+							bottom:("0")}, 1000);
+					},1000);	
+			setTimeout(function(){
+						$("#shuye4").animate({width: "38.65%",
+							height: "53.88%",
+							right:("0"),
+							bottom:("0")}, 1000);
+					},1000);
+			setTimeout(function(){
+						$("#shuye5").animate({width: "12.8%",
+							height: "100%",
+							left:("0"),
+							top:("-1%")}, 1000);
+					},1000);		
+			setTimeout(function() {
+					$("#muban3").css('display', 'none');
+				}, 500);
+			setTimeout(function() {
+					$("#muban3").css('display', 'none');
+					$("#muban4").css('display', 'block');
+				}, 500);
+			setTimeout(function() {
+					$("#muban4").css('display', 'none');
+					$("#muban").css('display', 'block');
+				}, 1000);
+			setTimeout(function() {
+					$("#muban").css('display', 'none');
+					$("#muban5").css('display', 'block');
+				}, 1500);	
+			setTimeout(function() {
+					$("#muban2").css('display', 'block');
+					$("#muban5").css('display', 'none');
+				}, 2000);
+			setTimeout(function() {
+					$("#muban5").css('display', 'block');
+					$("#muban2").css('display', 'none');
+				}, 2500);	
+			setTimeout(function() {
+					$("#muban").css('display', 'block');
+					$("#muban5").css('display', 'none');
+				}, 3000);
+			setTimeout(function() {
+					$("#muban4").css('display', 'block');
+					$("#muban").css('display', 'none');
+				}, 3500);
+			setTimeout(function() {
+					$("#muban3").css('display', 'block');
+					$("#muban4").css('display', 'none');
+				}, 4000);	
+			setTimeout(function() {
+					$("#muban4").css('display', 'block');
+					$("#muban3").css('display', 'none');
+				}, 4500);
+			setTimeout(function() {
+					$("#muban").css('display', 'block');
+					$("#muban4").css('display', 'none');
+				}, 5000);
+			setTimeout(function() {
+					$("#muban5").css('display', 'block');
+					$("#muban").css('display', 'none');
+				}, 5500);
+			setTimeout(function() {
+					$("#muban2").css('display', 'block');
+					$("#muban5").css('display', 'none');
+				}, 6000);
+			setTimeout(function() {
+					$("#muban5").css('display', 'block');
+					$("#muban2").css('display', 'none');
+				}, 6500);
+			setTimeout(function() {
+					$("#muban").css('display', 'block');
+					$("#muban5").css('display', 'none');
+				}, 7000);	
+		});
+	</script>
+</html>

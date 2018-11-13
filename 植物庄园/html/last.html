@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+		<style type="text/css">
+			#lastbg{
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			#bgpng{
+				width: 100%;
+			}
+			#top{
+				position: absolute;
+				width: 92.8%;
+				height: 5.74%;
+				left: 3.6%;
+				top: 5.38%;
+			}
+			#toppng{
+				width: 100%;
+			}
+			#main{
+				position: absolute;
+				width: 82.8%;
+				height: 86.1%;
+				top: 13.9%;
+				left: 0;
+			}
+			#mainpng{
+				height: 100%;
+			}
+			#next{
+				position: absolute;
+				width: 4.06%;
+				height: 7.217%;
+				top: 59.44%;
+				left: 67.08%;
+			}
+			#nextpng{
+				width: 100%;
+			}
+			#next2png{
+				position: absolute;
+				top: -10%;
+				left: -9%;
+				width: 118%;
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="lastbg">
+			<img id="bgpng" src="../img/lastbg.png" />
+			<div id="top">
+				<img id="toppng" src="../img/head.png"/>
+			</div>
+			<div id="main">
+				<img id="mainpng"  src="../img/last.png"/>
+			</div>
+			<div id="next">
+				<img id="nextpng" src="../img/qianjin.png"/>
+				<img id="next2png" src="../img/qianjinguang.png"/>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		
+		$(document).ready(function() {
+		  	$("#next").mouseenter(function() {
+                $("#nextpng").css('display','none');
+                $("#next2png").css('display','block');
+        });
+        
+        $("#next").mouseleave(function() {
+               $("#next2png").css('display','none');
+               $("#nextpng").css('display','block');
+        }); 
+		  	
+		  	$("#next").click(function() {
+               	setTimeout(function(){
+               	window.location.href="gongju.html";
+      				},300);
+        	});
+     });
+	</script>
+</html>
